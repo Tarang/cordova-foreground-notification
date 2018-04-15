@@ -1,0 +1,48 @@
+{
+  "name": "cordova-foreground-notification",
+  "cordova_name": "Cordova Foreground Notification Plugin",
+  "version": "0.1.0",
+  "description": "Allows you to view notifications in the foreground",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarang/cordova-foreground-notification.git"
+  },
+  "keywords": [
+    "appplant",
+    "notification",
+    "local notification",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows"
+  ],
+  "platforms": [
+    "ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.6.0"
+    },
+    {
+      "name": "cordova-plugman",
+      "version": ">=4.3.0"
+    },
+    {
+      "name": "cordova-windows",
+      "version": ">=4.2.0"
+    }
+  ],
+  "dependencies": {
+  },
+  "author": "Akshat Khatri",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tarang/cordova-foreground-notification/issues"
+  },
+  "homepage": "https://github.com/tarang/cordova-foreground-notification#readme"
+}

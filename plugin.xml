@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-foreground-notification"
+        version="0.1.0">
+
+    <name>cordova-foreground-notification</name>
+
+    <description>This plugin lets you use notifications in the foreground</description>
+
+    <repo>https://github.com/tarang/cordova-foreground-notification.git</repo>
+
+    <keywords>notification, local notification</keywords>
+
+    <license>Apache 2.0</license>
+
+    <author>Akshat Khatri</author>
+
+    <!-- cordova -->
+    <engines>
+        <engine name="cordova" version=">=3.6.0" />
+        <!-- TODO next version: Probably I meant cordova-lib -->
+        <!-- <engine name="cordova-plugman" version=">=4.3.0" /> -->
+    </engines>
+
+    <!-- dependencies -->
+
+    <!-- info -->
+    <info>
+        Your support is needed. If you use the cordova-foreground-notification plugin please support us in order to ensure further development.
+        https://github.com/tarang/cordova-foreground-notification#supporting
+
+        Thank you!
+    </info>
+
+    <!-- ios -->
+    <platform name="ios">
+
+        <header-file src="src/ios/ForegroundNotification.h" />
+        <source-file src="src/ios/ForegroundNotification.m" />
+    </platform>
+
+</plugin>
