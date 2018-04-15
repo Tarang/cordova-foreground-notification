@@ -4,5 +4,6 @@
 
 @interface ForegroundNotification : CDVPlugin
 
+- (void) init:(CDVInvokedUrlCommand*)command;
 
 @end

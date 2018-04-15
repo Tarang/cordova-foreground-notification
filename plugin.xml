@@ -24,7 +24,11 @@
         <!-- <engine name="cordova-plugman" version=">=4.3.0" /> -->
     </engines>
 
-    <!-- dependencies -->
+    <!-- <asset src="www/foreground.js" target="js/foreground.js"/>
+
+      <js-module src="www/foreground.js" name="foreground">
+        <clobbers target="cordova_foreground" />
+      </js-module> -->
 
     <!-- info -->
     <info>
@@ -36,6 +40,13 @@
 
     <!-- ios -->
     <platform name="ios">
+
+        <config-file target="config.xml" parent="/widget">
+          <feature name="ForegroundNotification">
+            <param name="ios-package" value="ForegroundNotification" />
+            <param name="onload" value="true" />
+          </feature>
+        </config-file>
 
         <header-file src="src/ios/ForegroundNotification.h" />
         <source-file src="src/ios/ForegroundNotification.m" />
